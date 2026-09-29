@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Watch</title>
+  <link rel="stylesheet" href="./watch.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+</head>
+<body>
+
+  <header class="watch-topbar">
+    <a class="back-btn" href="./index.html" aria-label="Back">
+      <i class="fa-solid fa-arrow-left"></i>
+    </a>
+    <h1 class="watch-title">movies</h1>
+
+    <div class="watch-actions">
+      <button class="top-action"><i class="fa-regular fa-circle-play"></i> Quality <span>Auto</span></button>
+      <button class="top-action"><i class="fa-regular fa-closed-captioning"></i> Audio & Subtitles</button>
+    </div>
+  </header>
+
+  <main class="watch-wrap">
+    <section class="player-shell">
+      <!-- Use controls to get real video controls without JS -->
+      <video class="player" controls autoplay>
+        <source src="./video/WhatsApp Video 2026-06-07 at 9.28.01 AM.mp4" type="video/mp4" />
+      </video>
+    </section>
+
+    <section class="more-like">
+      <div class="more-like-head">
+        <h2>More Like This</h2>
+      </div>
+
+      <div class="more-like-row">
+        <a class="thumb" href="#"><img src="https://media.themoviedb.org/t/p/w440_and_h660_face/wNqDTEXvDNNFD1aWYNou4uuDoPq.jpg" alt=""></a>
+        <a class="thumb" href="#"><img src="https://media.themoviedb.org/t/p/w440_and_h660_face/qdtm0wQmLmAYmj2QZI9EDInZ6uG.jpg" alt=""></a>
+        <a class="thumb" href="#"><img src="https://media.themoviedb.org/t/p/w440_and_h660_face/f90xO280gGQArVP2GU4IshAClt.jpg" alt=""></a>
+        <a class="thumb" href="#"><img src="https://media.themoviedb.org/t/p/w440_and_h660_face/jyw8VKYEiM1UDzPB7NsisUgBeJ8.jpg" alt=""></a>
+        <a class="thumb" href="#"><img src="https://media.themoviedb.org/t/p/w440_and_h660_face/afOa3CpPffC3uQCH2fhMaO3AYpB.jpg" alt=""></a>
+      </div>
+    </section>
+  </main>
+
+</body>
+</html>
