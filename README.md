@@ -24,7 +24,8 @@ Tools
 - Git
 - GitHub
 - VS Code
-📂 Pages
+##📂 Pages
+```text
 The project includes multiple pages:
 Home
 Movies
@@ -34,8 +35,10 @@ Search
 Categories
 My Space
 Watch
+```
 
 🎨 UI Features
+```text
 🏠 Hero Section
 Designed a large hero/banner section to highlight featured content with promotional information and call-to-action elements.
 🎬 Content Cards
@@ -48,6 +51,7 @@ Implemented a CSS-based mobile navigation menu for smaller screen sizes.
 Used CSS transitions, hover effects, transforms, and animations to make the interface more interactive.
 ▶️ Watch Interface
 Created a dedicated watch page with a video-watching interface using HTML5 video functionality.
+```
 
 ## 📁 Project Structure
 ```text
